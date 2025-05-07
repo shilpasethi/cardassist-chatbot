@@ -8,21 +8,30 @@ An Agentic Streamlit chatbot powered by LLMs and FAISS that assists users with c
 # Built using:
 
 LLMs (Groq API / Mistral)
+
 RAG (Retrieval-Augmented Generation)
+
 FAISS vector search
+
 PDF content parsing (TOC-based)
+
 Multi-agent system architecture
 
 # Features
 Interactive Streamlit Chat Interface
+
 Intent Classification: Determines what the user wants
+
 Knowledge Agent: Answers based on indexed document sections
+
 API Agent (Simulated): Executes commands like activation/deactivation
+
 PDF Preprocessing: Cleans footers, extracts TOC-based sections
+
 FAISS Indexing: Fast semantic search over the PDF content
-Project Structure
 
 # Installation & Execution
+
 ### 1. Clone the repository
 git clone https://github.com/shilpasethi/cardassist-chatbot.git
 cd cardassist-chatbot
