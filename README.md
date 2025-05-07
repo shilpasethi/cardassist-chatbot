@@ -34,12 +34,16 @@ FAISS Indexing: Fast semantic search over the PDF content
 
 ### 1. Clone the repository
 git clone https://github.com/shilpasethi/cardassist-chatbot.git
+
 cd cardassist-chatbot
 
 ### 2. Create a virtual environment
 python -m venv agentic_venv
+
 agentic_venv\Scripts\activate  # On Windows
+
 Or
+
 source agentic_venv/bin/activate  # On macOS/Linux
 
 ### 3. Install dependencies
