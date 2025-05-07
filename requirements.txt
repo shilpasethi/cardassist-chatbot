@@ -1,0 +1,9 @@
+# This file is used to install the required packages for the project.
+streamlit
+pdfplumber
+groq
+langchain
+langchain_community
+pymupdf
+dotenv
+sentence-transformers
